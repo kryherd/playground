@@ -1,0 +1,11 @@
+Experiment 2:
+
+The Dice coefficient has gone down to 0.0740741. 
+This is even worse overlap than we saw in Experiment 1.
+Because we removed motion censoring and putting motion coefficients into the regression,
+motion is less accounted for. Thus, the same voxel in space may correspond to different brain regions.
+This could help explain why the overlap is less than it was in Experiment 1. 
+
+Comparing Exp 1 to Exp 2 using REML files:
+
+In the Exp 2 data, all the significant activation is basically gone.
