@@ -1,0 +1,223 @@
+HISTORY_NOTE = [Kayleigh@NicoleLandis-MacBook-Air.local: Tue Aug 22 14:34:05 2017] {AFNI_17.2.08:macosx_10.7_local} 3dttest++ -mask ./export/masks/GroupMask+tlrc -prefix words -setA './export/betas/stats.sub-??_REML+tlrc.HEAD[Words#0_Coef]'\n[Kayleigh@NicoleLandis-MacBook-Air.local: Tue Aug 22 14:35:03 2017] {AFNI_17.2.08:macosx_10.7_local} 3drefit -atrstring AFNI_CLUSTSIM_NN1_1sided file:clust_words.NN1_1sided.niml -atrstring AFNI_CLUSTSIM_MASK file:clust_words.mask -atrstring AFNI_CLUSTSIM_NN2_1sided file:clust_words.NN2_1sided.niml -atrstring AFNI_CLUSTSIM_NN3_1sided file:clust_words.NN3_1sided.niml -atrstring AFNI_CLUSTSIM_NN1_2sided file:clust_words.NN1_2sided.niml -atrstring AFNI_CLUSTSIM_NN2_2sided file:clust_words.NN2_2sided.niml -atrstring AFNI_CLUSTSIM_NN3_2sided file:clust_words.NN3_2sided.niml -atrstring AFNI_CLUSTSIM_NN1_bisided file:clust_words.NN1_bisided.niml -atrstring AFNI_CLUSTSIM_NN2_bisided file:clust_words.NN2_bisided.niml -atrstring AFNI_CLUSTSIM_NN3_bisided file:clust_words.NN3_bisided.niml words+tlrc~
+TYPESTRING = 3DIM_HEAD_FUNC~
+IDCODE_STRING = XYZ_a1HZzNZgV_XYYKOe3ii-oA~
+IDCODE_DATE = Tue Aug 22 14:34:05 2017~
+SCENE_DATA = 2 11 1 -999 -999 -999 -999 -999 
+LABEL_1 = zyxt~
+LABEL_2 = zyxt~
+DATASET_NAME = zyxt~
+ORIENT_SPECIFIC = 1 2 4 
+ORIGIN = 90 126 -72 
+DELTA = -3 -3 3 
+IJK_TO_DICOM = -3 0 0 90 0 -3 0 126 0 0 3 -72 
+IJK_TO_DICOM_REAL = -3 0 0 90 0 -3 0 126 0 0 3 -72 
+BRICK_STATS = -0.248389 0.225726 -9.351179 8.191493 
+DATASET_RANK = 3 2 0 0 0 0 0 0 
+DATASET_DIMENSIONS = 61 73 61 0 0 
+BRICK_TYPES = 3 3 
+BRICK_FLOAT_FACS = 0 0 
+BRICK_LABS = SetA_mean~SetA_Tstat~
+BRICK_STATAUX = 1 3 1 16 
+BRICK_STATSYM = none;Ttest(16)~
+FDRCURVE_000001 = 0.000129 0.092062 0.443462 0.472502 0.506242 0.539848 0.577305 0.616368 0.659138 0.700843 0.744295 0.791323 0.839838 0.888438 0.939331 0.989339 1.040367 1.092791 1.146421 1.20042 1.254131 1.308733 1.362172 1.41752 1.470654 1.524289 1.577432 1.633076 1.686124 1.737868 1.791292 1.842088 1.892841 1.943333 1.991563 2.041249 2.089485 2.136528 2.181833 2.226235 2.270943 2.313704 2.355185 2.396872 2.437348 2.47631 2.514298 2.547712 2.580618 2.609116 2.646286 2.675714 2.706881 2.735897 2.763161 2.78445 2.811696 2.830003 2.851635 2.876096 2.899488 2.919909 2.942753 2.959107 2.974747 2.989804 2.997524 3.014758 3.014771 3.024873 3.036207 3.036207 3.03701 3.055237 3.065696 3.070787 3.082001 3.090105 3.10342 3.105447 3.105447 3.105447 3.105447 3.105447 3.105447 3.106586 3.10774 3.110595 3.113038 3.113038 3.113038 3.11365 3.113867 3.134915 3.159632 3.18435 3.209066 3.233783 3.258501 3.269092 3.279443 3.281517 3.281517 
+MDFCURVE_000001 = -6.123312 0.200753 0.999066 0.998484 0.997668 0.996029 0.994475 0.992022 0.987634 0.981551 0.973525 0.963736 0.951574 0.935694 0.914703 0.889466 0.861413 0.824368 0.783225 0.736574 0.683813 0.622429 0.551571 0.473139 0.3865 0.293849 0.201926 0.109237 0.03316 0 
+TEMPLATE_SPACE = MNI~
+INT_CMAP = 0 
+BYTEORDER_STRING = LSB_FIRST~
+AFNI_CLUSTSIM_NN1_1sided = <3dClustSim_NN1
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="1-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 20.47317
+</3dClustSim_NN1>~
+AFNI_CLUSTSIM_MASK = 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
+7A=====271633~
+AFNI_CLUSTSIM_NN2_1sided = <3dClustSim_NN2
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="1-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 21.11567
+</3dClustSim_NN2>~
+AFNI_CLUSTSIM_NN3_1sided = <3dClustSim_NN3
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="1-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 21.19108
+</3dClustSim_NN3>~
+AFNI_CLUSTSIM_NN1_2sided = <3dClustSim_NN1
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="2-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 16.9555
+</3dClustSim_NN1>~
+AFNI_CLUSTSIM_NN2_2sided = <3dClustSim_NN2
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="2-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 17.35424
+</3dClustSim_NN2>~
+AFNI_CLUSTSIM_NN3_2sided = <3dClustSim_NN3
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="2-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 17.48566
+</3dClustSim_NN3>~
+AFNI_CLUSTSIM_NN1_bisided = <3dClustSim_NN1
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="bi-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 16.9555
+</3dClustSim_NN1>~
+AFNI_CLUSTSIM_NN2_bisided = <3dClustSim_NN2
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="bi-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 17.35424
+</3dClustSim_NN2>~
+AFNI_CLUSTSIM_NN3_bisided = <3dClustSim_NN3
+  ni_type="float"
+  ni_dimen="1"
+  commandline="3dClustSim -mask /Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc -acf 0.823891 4.19962 14.369 -both -pthr .001 -athr .05 -iter 2000 -prefix clust_words -cmd refit.cmd"
+  thresholding="bi-sided"
+  nxyz="61,73,61"
+  dxyz="3.000,3.000,3.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="2000"
+  pthr="0.001"
+  athr="0.05"
+  mask_dset_idcode="XYZ_m73FmmxnwUX09nsv5o4b-Q"
+  mask_dset_name="/Users/Kayleigh/playground/hw3/export/masks/GroupMask+tlrc.HEAD"
+  mask_count="57300" >
+ 17.48566
+</3dClustSim_NN3>~
+BRICK_KEYWORDS = (null)
