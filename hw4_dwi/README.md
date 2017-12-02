@@ -63,3 +63,5 @@ We set up a different [batch script](./batch_extractb0s.sh) to run this extract 
 Navigate into the `scripts` directory and run `sbatch batch_extractb0s.sh`. Hopefully it will run!!
 
 2) Estimate the distortion field using `topup`. Note the [acqparams.txt](./acqparams.txt) and new [batch file](./batch_topup.sh).
+
+Readout time = (144-1)*.00078
