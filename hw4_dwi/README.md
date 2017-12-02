@@ -1,6 +1,6 @@
 ## Homework 4 - DTI
 
-#### Review the data
+### Review the data
 
 * How many shells (different nominal b values) are there? What are the shell b values?
 
@@ -51,7 +51,7 @@ Make sure you check for severe distortion (in this dataset, around slice 30) -- 
 You should now be in the container interactively.
 <<<<<<< HEAD:hw4_dwi/dwi_hw.md
 
-##### Preprocessing
+### Preprocessing
 
 1) Extract the b0 volumes from each DWI sequence and combine them into a single 4D NIFTI file.
 
