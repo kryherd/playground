@@ -49,6 +49,7 @@ Make sure you check for severe distortion (in this dataset, around slice 30) -- 
 `sh batch_dtihw_gpu.sh`
 
 You should now be in the container interactively.
+<<<<<<< HEAD:hw4_dwi/dwi_hw.md
 
 ##### Preprocessing
 
