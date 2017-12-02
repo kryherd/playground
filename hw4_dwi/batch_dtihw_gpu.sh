@@ -3,9 +3,7 @@
 #SBATCH --mail-user=First.Last@uconn.edu        # Your email address
 #SBATCH --nodes=1                                       # OpenMP requires a single node
 #SBATCH --ntasks=1                                      # Run a single serial task
-#SBATCH --time=01:00:00                         # Time limit hh:mm:ss
-#SBATCH -e error_%A_%a.log                      # Standard error
-#SBATCH -o output_%A_%a.log                     # Standard output
+#SBATCH --time=01:00:00                         # Time limit hh:
 #SBATCH --job-name=InteractiveFSL                       # Descriptive job name
 
 export OMP_NUM_THREADS=8                        #<= cpus-per-task
