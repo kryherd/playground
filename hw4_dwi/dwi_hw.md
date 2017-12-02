@@ -49,3 +49,14 @@ Make sure you check for severe distortion (in this dataset, around slice 30) -- 
 `sh batch_dtihw_gpu.sh`
 
 You should now be in the container interactively.
+
+##### Preprocessing
+
+1) Extract the b0 volumes from each DWI sequence and combine them into a single 4D NIFTI file.
+
+Recall from looking at the .bvals file that the indices of the b0s are `0 16 32 48 64 80`. We'll grab each one separately and then merge them for LR and for RL using the [extractb0s.sh](./extractb0s.sh) script. Make sure to chmod it:
+`chmod 755 extractb0s.sh`
+
+We set up a different [batch script](./batch_extractb0s.sh) to run this extract script.
+
+Navigate into the `scripts` directory and run `sbatch batch_extractb0s.sh`. Hopefully it will run!!
